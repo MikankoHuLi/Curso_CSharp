@@ -22,7 +22,7 @@
 
             else
             {
-                Console.Write("O empréstimo foi reprovado");
+                Console.Write("O empréstimo foi reprovado, foa a prestação mensal no valor de {0} reais ultrapassa 30% do seu salário", casa / (ano * 12));
             }
 
       
