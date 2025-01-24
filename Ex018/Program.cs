@@ -5,12 +5,12 @@
         static void Main(string[] args)
         {
             string gen;
-            Console.Write("Digite o gênero: ");
-            gen = Console.ReadLine();
+            Console.Write("Digite o seu gênero: ");
+            gen = Console.ReadLine().ToUpper();
 
             while (gen != "F" && gen != "M" && gen != "NB") 
             {
-                Console.Write("Digite o gênero: ");
+                Console.Write("Digite o seu gênero: ");
                 gen = Console.ReadLine();
             }
             Console.Write("Bem-Vindes ao curso de C#");
