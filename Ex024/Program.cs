@@ -10,13 +10,13 @@
 
             for (int i = 0; i < frutas.Length; i++)
             {
-                Console.WriteLine("O preço da " + frutas[i] + " é " + precos[i]);
+                Console.WriteLine("O preço da " + frutas[i] + " é R$ " + precos[i]);
                 
             }
             Console.WriteLine();
-            Console.WriteLine("O maior preço é " + precos.Max());
-            Console.WriteLine("O menor preço é " + precos.Min());
-            Console.WriteLine("A média dos preços é " + precos.Average());
+            Console.WriteLine("O maior preço é R$ " + precos.Max());
+            Console.WriteLine("O menor preço é R$ " + precos.Min());
+            Console.WriteLine("A média dos preços é R$ " + precos.Average());
 
         }
     }
