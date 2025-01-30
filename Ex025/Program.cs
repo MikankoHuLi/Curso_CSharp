@@ -24,11 +24,7 @@
 
             for (int i = 0; i < 4; i++) //repetindo linhas
             {
-                for (int j = 0; j < 3; j++)//repetindo colunas
-                {
-                    Console.Write(matriz[i, j] + " ");
-                }
-                Console.WriteLine();
+                
             }
 
             Console.WriteLine();
