@@ -18,6 +18,11 @@
             Console.WriteLine("Digite quão rápido sua agonia vai acabar");
             int pass = Convert.ToInt32(Console.ReadLine());
 
+            if (pass < 0)
+            {
+                pass = pass * -1;
+            }
+
             Contador(ini, final, pass);
 
         }
