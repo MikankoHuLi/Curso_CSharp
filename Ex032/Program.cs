@@ -6,10 +6,10 @@
         {
             double peso, alt, imc;
 
-            Console.Write("Digite seu peso: ");
+            Console.Write("Digite seu peso em KG: ");
             peso = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Digite sua altura: ");
+            Console.Write("Digite sua altura em metros: ");
             alt = Convert.ToDouble(Console.ReadLine());
 
             imc = peso / (alt * alt);
